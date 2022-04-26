@@ -35,7 +35,7 @@ flags.DEFINE_float('noise', 0., 'specify proportion of entires to corrupt in z')
 flags.DEFINE_float('test_noise', 0., 'specify proportion of entries to corrupt in z at test time.')
 
 # Training options
-flags.DEFINE_integer('n_epochs', 200, 'number of training epochs')
+flags.DEFINE_integer('n_epochs', 10, 'number of training epochs')
 flags.DEFINE_integer('batch_size', 100, 'number of datapoints per batch')
 flags.DEFINE_float('lr', 0.001, 'learning rate for the model')
 flags.DEFINE_string('optimizer', 'adam', 'sgd, adam, momentum')
